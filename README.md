@@ -1,6 +1,6 @@
 # Camera Calibration Challenge Solution
 
-## Final Score: 7.77% (Target: <25%)
+## Final Score: 7.77% on labeled dataset (Target: <25%)
 
 This document describes the solution methodology for the comma.ai camera calibration challenge.
 
@@ -68,7 +68,7 @@ Take the **median** of all per-frame estimates. The median is robust to outliers
 | `ransac_iterations` | 1000 | RANSAC iterations for FOE |
 | `ransac_residual_thresh` | 1.0 | Inlier threshold |
 
-## Results
+## Results (Labeled Dataset: Videos 0-4)
 
 ### Per-Video Breakdown
 
